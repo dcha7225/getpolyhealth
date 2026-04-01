@@ -49,8 +49,8 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="fade-up overflow-hidden rounded-[2rem] border border-white/[0.08] bg-white/[0.03] p-3">
             <Image
-              src="https://images.unsplash.com/photo-1758691462858-f1286e5daf40?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=80&w=2200"
-              alt="Editorial trust visual"
+              src="/reviews/xray-review.jpg"
+              alt="Radiology image displayed on a review monitor"
               width={1200}
               height={900}
               className="image-lift aspect-[4/3] w-full rounded-[1.5rem] object-cover"
