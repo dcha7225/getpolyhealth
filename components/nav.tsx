@@ -1,17 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useEffect } from "react";
-import polyhealthLogo from "@/polyhealthLogo.png";
 
-function Logo({ width = 220 }: { width?: number }) {
+function Logo({ className = "h-12 w-auto" }: { className?: string }) {
   return (
-    <Image
-      src={polyhealthLogo}
+    <img
+      src="/polyhealthLogo.svg"
       alt="PolyHealth logo"
-      width={width}
-      priority
-      className="h-auto w-auto max-h-24 object-contain"
+      className={`block object-contain ${className}`}
     />
   );
 }
@@ -36,10 +32,10 @@ export default function Nav() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center group">
-          <Logo width={220} />
+          <Logo className="h-20 w-auto" />
         </a>
 
         {/* Desktop nav */}

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         {/* Logo */}
         <div className="flex items-center">
-          <Logo width={180} />
+          <Logo className="h-12 w-auto" />
         </div>
 
         {/* Links */}
