@@ -79,11 +79,11 @@ export default function DemoCTA() {
           <div className="relative z-10">
             <p className="section-label mb-4 block">Get Started</p>
             <h2 className="display-font text-4xl sm:text-5xl text-white tracking-tight mb-4 leading-tight">
-              You&apos;re going to{" "}
+              {"You're going to "}
               <span className="gradient-text">want to see this.</span>
             </h2>
             <p className="text-slate-muted text-lg mb-10 max-w-xl mx-auto">
-              Founder-led, 20 minutes, and tailored to your clinic. We&apos;ll
+              {"Founder-led, 20 minutes, and tailored to your clinic. We'll"}
               show the full patient journey from booking to SOAP note to
               discharge.
             </p>
@@ -98,7 +98,7 @@ export default function DemoCTA() {
                 </div>
                 <p className="text-white font-bold text-xl">Request received.</p>
                 <p className="text-slate-muted text-sm">
-                  We&apos;ll reach out within 24 hours to schedule your demo.
+                  {"We'll reach out within 24 hours to schedule your demo."}
                 </p>
                 <div className="mt-2 flex flex-col sm:flex-row gap-3">
                   <a
@@ -239,7 +239,7 @@ export default function DemoCTA() {
                     {isSubmitting ? "Saving request..." : "Request a Demo"}
                   </button>
                   <p className="text-slate-subtle text-xs mt-1">
-                    We&apos;ll reach out within 24 hours. No spam, ever.
+                    {"We'll reach out within 24 hours. No spam, ever."}
                   </p>
                   {error ? <p className="text-sm text-rose-300">{error}</p> : null}
                 </form>

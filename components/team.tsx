@@ -6,14 +6,14 @@ const team = [
   {
     name: "Ragy Ebeid",
     title: "Co-Founder",
-    bio: "Former BCG consultant with deep healthcare context. Focused on building a clinic operating system that feels credible to providers and patients from day one.",
+    bio: "Ex-NASA, current BCG, and Johns Hopkins senior. Accepted to and deferred medical school at 19.",
     linkedin: "https://www.linkedin.com/in/ragy-ebeid-2046a9205/",
     photo: "/team/ragy.png",
   },
   {
     name: "Daniel Cha",
     title: "Co-Founder",
-    bio: "Former TikTok engineer focused on building reliable product systems, polished interfaces, and AI workflows that can support real clinical operations.",
+    bio: "Ex-TikTok and Amazon. Carnegie Mellon senior building reliable product systems, polished interfaces, and AI workflows for real clinical operations.",
     linkedin: "https://www.linkedin.com/in/danielcha0131/",
     photo: "/team/dan.png",
   },
@@ -45,13 +45,15 @@ export default function Team() {
               className="glass-card rounded-2xl p-8 flex-1"
             >
               <div className="mb-6 flex items-center gap-4">
-                <Image
-                  src={member.photo}
-                  alt={member.name}
-                  width={72}
-                  height={72}
-                  className="h-[72px] w-[72px] rounded-2xl object-cover shrink-0 border border-white/10"
-                />
+                <div className="h-[76px] w-[76px] shrink-0 rounded-full overflow-hidden border border-white/10 ring-4 ring-white/[0.03] bg-surface-2">
+                  <Image
+                    src={member.photo}
+                    alt={member.name}
+                    width={76}
+                    height={76}
+                    className="h-full w-full object-cover scale-[1.28]"
+                  />
+                </div>
 
                 <div>
                   <h3 className="text-white font-bold text-lg mb-0.5">{member.name}</h3>

@@ -14,7 +14,7 @@ function Problem() {
       icon: "📞",
       label: "Admin Overload",
       heading: "Your staff spends more time on the phone than your patients do.",
-      body: "Appointment reminders, intake calls, lab notifications, pharmacy callbacks — it never stops. You hired clinicians. You&apos;re running a call center.",
+      body: "Appointment reminders, intake calls, lab notifications, pharmacy callbacks — it never stops. You hired clinicians. You're running a call center.",
       accent: "rgba(99,102,241,0.1)",
       border: "rgba(99,102,241,0.15)",
     },
@@ -22,7 +22,7 @@ function Problem() {
       icon: "📄",
       label: "Documentation Burden",
       heading: "SOAP notes are eating your evenings.",
-      body: "Charting after every visit adds hours to every day. The documentation burden is a leading cause of physician burnout — and it doesn&apos;t have to be.",
+      body: "Charting after every visit adds hours to every day. The documentation burden is a leading cause of physician burnout — and it doesn't have to be.",
       accent: "rgba(45,212,191,0.08)",
       border: "rgba(45,212,191,0.15)",
     },
@@ -42,7 +42,7 @@ function Problem() {
         <div className="max-w-2xl mb-16">
           <p className="section-label">The Problem</p>
           <h2 className="section-heading">
-            Running a clinic shouldn&apos;t require{" "}
+            {"Running a clinic shouldn't require "}
             <span className="gradient-text">an army.</span>
           </h2>
         </div>
@@ -82,7 +82,7 @@ function HowItWorks() {
     {
       step: "01",
       heading: "Launch your clinic",
-      body: "The Clinic Launch Agent walks you through branding, availability, and setup. Go live in days, not months.",
+      body: "The Clinic Launch Agent walks you through branding, availability, and setup so you can launch your own telehealth clinic in less than 48 hours.",
     },
     {
       step: "02",
@@ -152,7 +152,7 @@ function SoapQuality() {
               <span className="gradient-text">clinical workflow.</span>
             </h2>
             <p className="text-slate-muted text-base leading-relaxed mb-5">
-              The Clinical Notes Agent doesn&apos;t just transcribe. It structures
+              {"The Clinical Notes Agent doesn't just transcribe. It structures"}
               subjective, objective, assessment, and plan sections around your
               preferred templates, forms, and documentation style so the note
               is useful the moment the visit ends.
@@ -302,9 +302,9 @@ function Vision() {
           <div className="relative z-10">
             <p className="section-label mb-8 block">Our Vision</p>
             <blockquote className="text-xl sm:text-2xl font-medium text-white leading-relaxed mb-10">
-              &ldquo;Independent physicians are the backbone of American
-              healthcare. They shouldn&apos;t have to choose between seeing more
-              patients and keeping the lights on. We built PolyHealth so that one
+              &ldquo;Independent physicians are the backbone of American healthcare.
+              They shouldn&apos;t have to choose between seeing more patients and
+              keeping the lights on. We built PolyHealth so that one
               physician, with the right AI behind them, can deliver the same
               quality of care as a full clinic team — without the overhead, the
               burnout, or the compromise.&rdquo;

@@ -1,7 +1,8 @@
 export default function Hero() {
   const proofPoints = [
+    "Launch your own telehealth clinic in less than 48 hours",
     "Founder-led 20 minute walkthrough",
-    "See intake, notes, discharge, and follow-up in one flow",
+    "See intake, triage, discharge, pharmacy, and notes in one flow",
     "Upload your forms and shape the agents around your workflow",
   ];
 
@@ -32,9 +33,9 @@ export default function Hero() {
 
         {/* Main headline */}
         <h1 className="display-font text-5xl sm:text-6xl md:text-[4.5rem] tracking-tight text-white leading-[0.98] mb-6">
-          The front desk,
+          The clinic launch,
           <br />
-          <span className="gradient-text">intake team, and scribe</span>
+          <span className="gradient-text">intake, and follow-up agents</span>
           <br />
           your clinic never hired.
         </h1>
@@ -57,7 +58,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mx-auto mb-14 grid max-w-3xl grid-cols-1 gap-3 text-left sm:grid-cols-3">
+        <div className="mx-auto mb-14 grid max-w-4xl grid-cols-1 gap-3 text-left sm:grid-cols-2 lg:grid-cols-4">
           {proofPoints.map((item) => (
             <div
               key={item}
