@@ -29,8 +29,8 @@ function Problem() {
     {
       icon: "💸",
       label: "Staffing Costs",
-      heading: "A full front office costs more than your equipment.",
-      body: "A medical assistant runs $40,000–$60,000 a year. They call in sick, they quit, they make mistakes. Independent physicians deserve a smarter model.",
+      heading: "Operational overhead scales faster than the clinic does.",
+      body: "Great staff matter, but repetitive scheduling, intake, follow-up, and documentation work should not force a small clinic into oversized overhead before it is ready.",
       accent: "rgba(251,191,36,0.08)",
       border: "rgba(251,191,36,0.15)",
     },
@@ -82,17 +82,17 @@ function HowItWorks() {
     {
       step: "01",
       heading: "Launch your clinic",
-      body: "Atlas walks you through branding, availability, and setup. Go live in days — not months.",
+      body: "The Clinic Launch Agent walks you through branding, availability, and setup. Go live in days, not months.",
     },
     {
       step: "02",
       heading: "Agents run the ops",
-      body: "From the moment a patient books, Iris, Nova, Dex, and Pip handle intake, results, discharge, and pharmacy.",
+      body: "From the moment a patient books, the intake, triage, discharge, and pharmacy agents handle the repetitive operational work around the visit.",
     },
     {
       step: "03",
-      heading: "You see patients. Sage writes the note.",
-      body: "Join the video visit. Sage generates your SOAP note in real time. Review and sign in under 60 seconds.",
+      heading: "You see patients. The notes agent keeps up.",
+      body: "Join the video visit. The Clinical Notes Agent generates a structured SOAP note in real time using your preferred note style and templates.",
     },
   ];
 
@@ -106,8 +106,8 @@ function HowItWorks() {
             <span className="gradient-text">in three steps.</span>
           </h2>
           <p className="text-slate-muted text-lg max-w-xl mx-auto">
-            PolyHealth is designed to disappear. The agents handle the workflow.
-            You handle the medicine.
+            PolyHealth is designed to disappear into your workflow. The agents
+            handle the operations. You handle the medicine.
           </p>
         </div>
 
@@ -148,18 +148,18 @@ function SoapQuality() {
           <div>
             <p className="section-label">Clinical Notes</p>
             <h2 className="text-4xl font-bold text-white tracking-tight leading-tight mb-6">
-              As accurate as your{" "}
-              <span className="gradient-text">best medical assistant.</span>
+              Structured around your{" "}
+              <span className="gradient-text">clinical workflow.</span>
             </h2>
             <p className="text-slate-muted text-base leading-relaxed mb-5">
-              Sage doesn&apos;t just transcribe — it structures. Subjective, Objective,
-              Assessment, Plan. Formatted to your preferences, ready before you
-              leave the room.
+              The Clinical Notes Agent doesn&apos;t just transcribe. It structures
+              subjective, objective, assessment, and plan sections around your
+              preferred templates, forms, and documentation style so the note
+              is useful the moment the visit ends.
             </p>
             <p className="text-slate-muted text-base leading-relaxed mb-8">
-              Physicians on our waitlist tell us the SOAP quality is
-              indistinguishable from what their best MA produces — and it&apos;s
-              there the moment the visit ends.
+              The goal is not generic AI output. The goal is a review-ready note
+              that feels native to how your clinic already practices.
             </p>
             <div className="flex items-center gap-3 p-4 rounded-xl"
               style={{ background: "rgba(45,212,191,0.06)", border: "1px solid rgba(45,212,191,0.12)" }}>
@@ -185,7 +185,7 @@ function SoapQuality() {
               <div className="w-3 h-3 rounded-full bg-yellow-500/50" />
               <div className="w-3 h-3 rounded-full bg-green-500/50" />
               <span className="text-slate-subtle ml-2 text-[10px] tracking-wide">
-                Sage · SOAP Note · Generated 0:12 after visit
+                Clinical Notes Agent · SOAP Note · Generated 0:12 after visit
               </span>
             </div>
 

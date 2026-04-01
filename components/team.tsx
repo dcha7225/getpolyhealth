@@ -1,19 +1,21 @@
+"use client";
+
+import Image from "next/image";
+
 const team = [
   {
     name: "Ragy Ebeid",
     title: "Co-Founder",
-    bio: "Former BCG consultant. Got into and deferred medical school at 19. Building the clinic he never got to run.",
+    bio: "Former BCG consultant with deep healthcare context. Focused on building a clinic operating system that feels credible to providers and patients from day one.",
     linkedin: "https://www.linkedin.com/in/ragy-ebeid-2046a9205/",
-    initials: "RE",
-    gradient: "linear-gradient(135deg, #2DD4BF, #6366F1)",
+    photo: "/team/ragy.png",
   },
   {
     name: "Daniel Cha",
     title: "Co-Founder",
-    bio: "Former TikTok engineer. Fielded offers from Google and Dropbox. Chose to build something that matters.",
+    bio: "Former TikTok engineer focused on building reliable product systems, polished interfaces, and AI workflows that can support real clinical operations.",
     linkedin: "https://www.linkedin.com/in/danielcha0131/",
-    initials: "DC",
-    gradient: "linear-gradient(135deg, #6366F1, #A78BFA)",
+    photo: "/team/dan.png",
   },
 ];
 
@@ -25,33 +27,39 @@ export default function Team() {
         <div className="text-center mb-16">
           <p className="section-label">The Team</p>
           <h2 className="section-heading mb-5">
-            Healthcare expertise.{" "}
-            <span className="gradient-text">World-class engineering.</span>
+            Founder-led product thinking.
+            <span className="gradient-text"> Execution that feels clinical.</span>
           </h2>
           <p className="text-slate-muted text-lg max-w-xl mx-auto">
-            We built PolyHealth because we understood both sides of the problem — and knew exactly what was missing.
+            PolyHealth sits at the intersection of healthcare workflow, AI
+            systems, and product execution. The goal is simple: help
+            independent clinics operate with more leverage and less friction.
           </p>
         </div>
 
         {/* Cards */}
-        <div className="flex flex-col sm:flex-row justify-center gap-5 max-w-2xl mx-auto">
+        <div className="flex flex-col sm:flex-row justify-center gap-5 max-w-3xl mx-auto">
           {team.map((member) => (
             <div
               key={member.name}
               className="glass-card rounded-2xl p-8 flex-1"
             >
-              {/* Gradient avatar */}
-              <div
-                className="w-14 h-14 rounded-2xl flex items-center justify-center text-white font-bold text-xl mb-6 shadow-lg"
-                style={{ background: member.gradient }}
-              >
-                {member.initials}
+              <div className="mb-6 flex items-center gap-4">
+                <Image
+                  src={member.photo}
+                  alt={member.name}
+                  width={72}
+                  height={72}
+                  className="h-[72px] w-[72px] rounded-2xl object-cover shrink-0 border border-white/10"
+                />
+
+                <div>
+                  <h3 className="text-white font-bold text-lg mb-0.5">{member.name}</h3>
+                  <p className="section-label text-xs mb-0">{member.title}</p>
+                </div>
               </div>
 
-              <h3 className="text-white font-bold text-lg mb-0.5">{member.name}</h3>
-              <p className="section-label text-xs mb-4">{member.title}</p>
-
-              <p className="text-slate-muted text-sm leading-relaxed mb-6">
+              <p className="text-slate-muted text-sm leading-relaxed mb-6 min-h-[96px]">
                 {member.bio}
               </p>
 

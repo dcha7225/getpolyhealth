@@ -1,17 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
 export const metadata: Metadata = {
-  title: "PolyHealth — The AI Clinic OS for Independent Physicians",
+  title: "GetPolyHealth | AI Clinic OS for Independent Physicians",
   description:
-    "Launch a fully automated telehealth practice with 6 AI agents handling intake, triage, discharge, pharmacy, and clinical notes. $299/week. Everything included.",
+    "Book a PolyHealth demo and see how six fully customizable AI agents handle intake, triage, discharge, pharmacy coordination, and SOAP notes for independent physicians.",
+  metadataBase: new URL("https://www.getpolyhealth.com"),
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "telemedicine",
     "AI clinic",
@@ -22,11 +19,17 @@ export const metadata: Metadata = {
     "independent physician",
   ],
   openGraph: {
-    title: "PolyHealth — The AI Clinic OS for Independent Physicians",
+    title: "GetPolyHealth | AI Clinic OS for Independent Physicians",
     description:
-      "Six AI agents. One complete telehealth practice. Launch in days.",
+      "See the founder-led PolyHealth demo for independent physicians.",
     type: "website",
-    siteName: "PolyHealth",
+    siteName: "GetPolyHealth",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "GetPolyHealth | AI Clinic OS for Independent Physicians",
+    description:
+      "See how six fully customizable AI agents can run intake, triage, discharge, pharmacy coordination, and SOAP notes for your clinic.",
   },
 };
 
@@ -36,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

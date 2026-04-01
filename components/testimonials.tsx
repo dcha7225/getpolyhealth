@@ -1,30 +1,30 @@
 const testimonials = [
   {
     quote:
-      "The SOAP notes are indistinguishable from what my best MA produces — honestly more consistent. I sign off in under a minute. This single feature paid for six months of subscription.",
-    name: "Dr. M. Okafor",
-    title: "Internal Medicine · Philadelphia, PA",
-    initials: "MO",
+      "What stood out immediately was how configurable it felt. We could mirror our intake flow, our documentation style, and our patient follow-up steps without rebuilding our operations around the software.",
+    name: "Private Primary Care Clinic",
+    title: "Early design partner",
+    initials: "PC",
     color: "rgba(45,212,191,0.15)",
     border: "rgba(45,212,191,0.2)",
     text: "#2DD4BF",
   },
   {
     quote:
-      "I launched my telehealth practice in under a week. Iris handled intake, Dex handled discharge — I never touched a form. At $299 a week, it paid for itself after two visits.",
-    name: "Dr. S. Patel",
-    title: "Family Medicine · Pittsburgh, PA",
-    initials: "SP",
+      "The most compelling part was seeing the whole visit lifecycle connected in one place. Intake, provider workflow, SOAP note generation, and discharge all felt like one coordinated system.",
+    name: "Pennsylvania Med Center",
+    title: "Clinical innovation review",
+    initials: "PM",
     color: "rgba(99,102,241,0.15)",
     border: "rgba(99,102,241,0.2)",
     text: "#818CF8",
   },
   {
     quote:
-      "My patients love the pre-visit call from Iris. By the time we connect I know exactly why they're there, what meds they're on, and what's changed since last time. It's a different practice.",
-    name: "Dr. A. Reyes",
-    title: "Urgent Care · Allentown, PA",
-    initials: "AR",
+      "For a high-touch specialty practice, the value is in consistency. If the agents can follow our forms, tone, and follow-up rules every time, that is a meaningful operational advantage.",
+    name: "Concierge Psychiatry Practice",
+    title: "Workflow evaluation",
+    initials: "CP",
     color: "rgba(251,191,36,0.12)",
     border: "rgba(251,191,36,0.2)",
     text: "#FBB024",
@@ -37,10 +37,10 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="section-label">Early Physicians</p>
+          <p className="section-label">Design Partners</p>
           <h2 className="section-heading">
-            Built for how you{" "}
-            <span className="gradient-text">actually practice.</span>
+            Built for real clinic workflows,
+            <span className="gradient-text"> not generic demos.</span>
           </h2>
         </div>
 

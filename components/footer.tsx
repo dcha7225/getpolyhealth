@@ -17,6 +17,7 @@ export default function Footer() {
           <a href="#agents" className="hover:text-white transition-colors">Agents</a>
           <a href="#pricing" className="hover:text-white transition-colors">Pricing</a>
           <a href="#team" className="hover:text-white transition-colors">Team</a>
+          <a href="#demo" className="hover:text-white transition-colors">Request Demo</a>
           <a href="mailto:team@getpolyhealth.com" className="hover:text-white transition-colors">
             team@getpolyhealth.com
           </a>

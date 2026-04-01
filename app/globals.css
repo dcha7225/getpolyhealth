@@ -21,9 +21,14 @@ body {
   color: #F1F5F9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 /* ── Typography ──────────────────────────────────────────────────────── */
+.display-font {
+  font-family: "Iowan Old Style", Palatino, "Book Antiqua", Georgia, serif;
+}
+
 .gradient-text {
   background: linear-gradient(135deg, #2DD4BF 0%, #818CF8 100%);
   -webkit-background-clip: text;
@@ -100,6 +105,17 @@ body {
   box-shadow: 0 8px 30px rgba(45,212,191,0.3), 0 0 0 1px rgba(45,212,191,0.2);
 }
 
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(45,212,191,0.75);
+  outline-offset: 3px;
+}
+
 .btn-secondary {
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.1);
@@ -131,7 +147,9 @@ body {
 }
 
 .section-heading {
-  @apply text-4xl sm:text-5xl font-bold tracking-tight text-slate-100 leading-[1.1];
+  @apply text-4xl sm:text-5xl tracking-tight text-slate-100 leading-[1.05];
+  font-family: "Iowan Old Style", Palatino, "Book Antiqua", Georgia, serif;
+  font-weight: 600;
 }
 
 /* ── Subtle grid ─────────────────────────────────────────────────────── */

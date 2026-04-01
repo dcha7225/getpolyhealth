@@ -69,7 +69,7 @@ export default function Nav() {
         {/* CTA */}
         <div className="hidden md:flex">
           <a href="#demo" className="btn-primary text-sm px-5 py-2.5 text-white">
-            Book a Demo
+            Request Demo
           </a>
         </div>
 
@@ -114,7 +114,7 @@ export default function Nav() {
               onClick={() => setMenuOpen(false)}
               className="btn-primary text-sm text-center text-white"
             >
-              Book a Demo
+              Request Demo
             </a>
           </nav>
         </div>

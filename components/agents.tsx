@@ -1,72 +1,66 @@
 const agents = [
   {
-    name: "Atlas",
-    role: "Clinic Launch",
-    icon: "⬡",
+    name: "Clinic Launch Agent",
+    role: "Setup, onboarding, and launch workflows",
     iconClass: "agent-icon-indigo",
     iconEmoji: "🚀",
     description:
-      "Set up your practice, configure availability, and go live in days. Atlas handles every step of clinic onboarding so your first patient visit is never delayed.",
+      "Sets up your practice, configures availability, and helps you go live quickly. Tailor onboarding steps, messaging, and scheduling rules to match how your clinic operates.",
     tag: null,
     accent: "rgba(99,102,241,0.12)",
     accentBorder: "rgba(99,102,241,0.2)",
   },
   {
-    name: "Iris",
-    role: "Pre-Visit Intake",
-    icon: "⬡",
+    name: "Patient Intake Agent",
+    role: "Pre-visit outreach and form completion",
     iconClass: "agent-icon-teal",
     iconEmoji: "📋",
     description:
-      "Calls or messages every patient before their appointment. Collects symptoms, medications, and history — your chart is pre-filled before the visit begins.",
+      "Calls or messages patients before appointments, collects symptoms, medications, and history, and can follow your exact intake forms and question flows.",
     tag: null,
     accent: "rgba(45,212,191,0.10)",
     accentBorder: "rgba(45,212,191,0.2)",
   },
   {
-    name: "Nova",
-    role: "Triage & Results",
-    icon: "⬡",
+    name: "Results & Triage Agent",
+    role: "Results delivery and escalation logic",
     iconClass: "agent-icon-amber",
     iconEmoji: "🔬",
     description:
-      "Delivers lab results, imaging reports, and follow-up instructions directly to patients. Escalates anything flagged as urgent to you immediately.",
+      "Delivers lab results, imaging reports, and follow-up instructions directly to patients, while escalating time-sensitive cases based on your triage rules.",
     tag: null,
     accent: "rgba(251,191,36,0.10)",
     accentBorder: "rgba(251,191,36,0.2)",
   },
   {
-    name: "Dex",
-    role: "Discharge",
-    icon: "⬡",
+    name: "Discharge & Follow-Up Agent",
+    role: "Post-visit instructions and next steps",
     iconClass: "agent-icon-emerald",
     iconEmoji: "📤",
     description:
-      "Automatically sends discharge instructions, medication reminders, and follow-up scheduling the moment you close a visit. Zero extra steps on your end.",
+      "Sends discharge instructions, medication reminders, and follow-up scheduling the moment a visit closes, using your preferred templates and patient education materials.",
     tag: null,
     accent: "rgba(16,185,129,0.10)",
     accentBorder: "rgba(16,185,129,0.2)",
   },
   {
-    name: "Pip",
-    role: "Pharmacy Coordination",
-    icon: "⬡",
+    name: "Pharmacy Coordination Agent",
+    role: "Refills, prior auth, and pharmacy callbacks",
     iconClass: "agent-icon-violet",
     iconEmoji: "💊",
     description:
-      "Handles prior authorizations, refill requests, and pharmacy callbacks. Works across major pharmacy networks. e-Prescription integration launching soon.",
+      "Handles prior authorizations, refill requests, and pharmacy callbacks, with workflows you can customize around your medication policies and staff process.",
     tag: "e-Rx Coming Soon",
     accent: "rgba(167,139,250,0.10)",
     accentBorder: "rgba(167,139,250,0.2)",
   },
   {
-    name: "Sage",
-    role: "Clinical Notes",
-    icon: "⬡",
+    name: "Clinical Notes Agent",
+    role: "SOAP generation shaped to your templates",
     iconClass: "agent-icon-sky",
     iconEmoji: "📝",
     description:
-      "Generates complete SOAP notes from every visit with the accuracy of a trained medical assistant. Review, edit, and sign in under 60 seconds.",
+      "Generates structured SOAP notes from every visit and can follow your note style, clinical templates, and uploaded forms so review stays fast and consistent.",
     tag: null,
     accent: "rgba(56,189,248,0.10)",
     accentBorder: "rgba(56,189,248,0.2)",
@@ -81,13 +75,14 @@ export default function Agents() {
         <div className="max-w-2xl mb-16">
           <p className="section-label">The Agent Stack</p>
           <h2 className="section-heading mb-5">
-            Six agents.<br />
-            <span className="gradient-text">One complete clinic OS.</span>
+            Six fully customizable AI agents.<br />
+            <span className="gradient-text">One complete clinic operating system.</span>
           </h2>
           <p className="text-slate-muted text-lg leading-relaxed">
-            Each agent owns a specific part of the patient journey — from first
-            contact to final note. Together, they replace most of what a
-            front-office team does.
+            Each agent owns a specific part of the patient journey, from first
+            contact to final note. You can tailor scripts, forms, discharge
+            instructions, and workflows so PolyHealth matches your clinic
+            instead of forcing a rigid template.
           </p>
         </div>
 

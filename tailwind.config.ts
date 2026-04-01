@@ -24,7 +24,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: ["Avenir Next", "Segoe UI", "Helvetica Neue", "Arial", "sans-serif"],
+        display: ["Iowan Old Style", "Palatino", "Book Antiqua", "Georgia", "serif"],
       },
       backgroundImage: {
         "gradient-primary": "linear-gradient(135deg, #2DD4BF 0%, #6366F1 100%)",

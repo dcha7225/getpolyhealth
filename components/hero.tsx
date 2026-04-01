@@ -1,4 +1,10 @@
 export default function Hero() {
+  const proofPoints = [
+    "Founder-led 20 minute walkthrough",
+    "See intake, notes, discharge, and follow-up in one flow",
+    "Upload your forms and shape the agents around your workflow",
+  ];
+
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-20 overflow-hidden">
       {/* Background layers */}
@@ -18,40 +24,58 @@ export default function Hero() {
           }}>
           <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse-slow" />
           <span className="text-primary text-xs font-semibold tracking-wide">
-            13 physicians on the waitlist
+            Early clinic demos now open
           </span>
           <span className="text-slate-muted text-xs">·</span>
-          <span className="text-slate-muted text-xs">Accepting applications now</span>
+          <span className="text-slate-muted text-xs">Founder-led walkthroughs</span>
         </div>
 
         {/* Main headline */}
-        <h1 className="text-5xl sm:text-6xl md:text-[4.5rem] font-extrabold tracking-tight text-white leading-[1.05] mb-6">
-          The AI Operating System
+        <h1 className="display-font text-5xl sm:text-6xl md:text-[4.5rem] tracking-tight text-white leading-[0.98] mb-6">
+          The front desk,
           <br />
-          <span className="gradient-text">for Independent Physicians.</span>
+          <span className="gradient-text">intake team, and scribe</span>
+          <br />
+          your clinic never hired.
         </h1>
 
         {/* Sub */}
         <p className="text-lg sm:text-xl text-slate-muted max-w-2xl mx-auto leading-relaxed mb-12 font-normal">
-          Six specialized AI agents handle intake, triage, discharge, pharmacy
-          coordination, and clinical notes — so you practice medicine, not administration.
+          PolyHealth gives independent physicians an AI clinic operating system:
+          six fully customizable AI agents that run intake, triage, discharge,
+          pharmacy coordination, and SOAP notes while following your forms,
+          scripts, and clinic workflows.
         </p>
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <a href="#demo" className="btn-primary w-full sm:w-auto text-white">
-            Book a Demo
+            Request Demo
           </a>
           <a href="#agents" className="btn-secondary w-full sm:w-auto">
-            Meet the Agents →
+            Explore the Agent Stack
           </a>
+        </div>
+
+        <div className="mx-auto mb-14 grid max-w-3xl grid-cols-1 gap-3 text-left sm:grid-cols-3">
+          {proofPoints.map((item) => (
+            <div
+              key={item}
+              className="rounded-2xl border border-white/[0.08] bg-white/[0.03] px-4 py-4 text-sm text-slate-muted backdrop-blur-sm"
+            >
+              <span className="mb-2 inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 text-primary">
+                ✓
+              </span>
+              <p>{item}</p>
+            </div>
+          ))}
         </div>
 
         {/* Stats row */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-12">
           {[
             { value: "$299", label: "per week, all included" },
-            { value: "6", label: "specialized AI agents" },
+            { value: "6", label: "fully customizable AI agents" },
             { value: "<1 min", label: "SOAP note review time" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">

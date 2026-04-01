@@ -1,11 +1,11 @@
 const features = [
-  { label: "All 6 AI agents — Atlas, Iris, Nova, Dex, Pip & Sage", hot: false },
+  { label: "All 6 fully customizable AI agents", hot: true },
   { label: "Unlimited patient visits", hot: false },
-  { label: "SOAP notes — ready in under 60 seconds", hot: true },
-  { label: "Pre-visit intake calls & messages (Iris)", hot: false },
-  { label: "Lab & results delivery to patients (Nova)", hot: false },
-  { label: "Automated discharge instructions (Dex)", hot: false },
-  { label: "Pharmacy coordination & prior auth (Pip)", hot: false },
+  { label: "SOAP notes ready in under 60 seconds", hot: false },
+  { label: "Custom intake calls, messages, and uploaded forms", hot: false },
+  { label: "Results delivery and triage workflows", hot: false },
+  { label: "Automated discharge and follow-up instructions", hot: false },
+  { label: "Pharmacy coordination and prior auth workflows", hot: false },
   { label: "Integrated video visit rooms", hot: false },
   { label: "HIPAA-compliant infrastructure + BAA", hot: false },
   { label: "e-Prescription integration — coming soon", hot: false },
@@ -52,7 +52,8 @@ export default function Pricing() {
                 >
                   <span className="text-primary font-semibold">Compare:</span>
                   <span className="text-slate-muted ml-1">
-                    A medical assistant costs $800–$1,200/week. PolyHealth does more.
+                    PolyHealth gives a small clinic automation leverage without
+                    forcing more operational overhead before demand is proven.
                   </span>
                 </div>
 
@@ -78,7 +79,7 @@ export default function Pricing() {
 
                 {/* CTA */}
                 <a href="#demo" className="btn-primary block text-center text-white w-full">
-                  Book a Demo
+                  Request Demo
                 </a>
                 <p className="text-center text-slate-subtle text-xs mt-4">
                   Talk to us first. No commitment required.
