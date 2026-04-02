@@ -189,7 +189,7 @@ function Workflow() {
             <div className="fade-up max-w-3xl">
               <p className="mb-5 flex items-center gap-3 text-sm font-medium text-white/66">
                 <span className="inline-flex h-2.5 w-2.5 rounded-full bg-[#9ec5ff]" />
-                Flow
+                Workflow
               </p>
               <h2 className="max-w-4xl text-3xl leading-[1.18] tracking-[-0.035em] text-white sm:text-4xl">
                 While every clinic launch has its own operating requirements, we use the following framework to preserve speed, quality, and control.

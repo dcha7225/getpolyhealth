@@ -43,7 +43,7 @@ export default function Pricing() {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-6 lg:grid-cols-[0.88fr_1.12fr]">
           <div className="fade-up surface p-8 sm:p-10">
-            <p className="section-label">Commercial Model</p>
+            <p className="section-label">Pricing</p>
             <h2 className="section-heading">
               One operating layer,{" "}
               <span className="gradient-text"> one weekly price.</span>

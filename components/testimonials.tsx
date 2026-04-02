@@ -22,7 +22,7 @@ export default function Testimonials() {
     <section id="proof" className="section-base">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 max-w-3xl">
-          <p className="section-label">Proof</p>
+          <p className="section-label">Testimonials</p>
           <h2 className="section-heading">
             A cleaner operating system only matters if it reflects{" "}
             <span className="gradient-text"> real clinic workflows.</span>
@@ -36,9 +36,12 @@ export default function Testimonials() {
 
         <div className="grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
           <div className="fade-up surface p-8 sm:p-10">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[#9ec5ff]">
-              Design Partner Signal
-            </p>
+            <div className="mb-4 flex items-center gap-3">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[rgba(47,109,246,0.12)] text-xs font-semibold text-[#dce9ff]">
+                01
+              </span>
+              <div className="blueprint-line w-14" />
+            </div>
             <blockquote className="mt-6 max-w-3xl text-2xl leading-relaxed tracking-[-0.03em] text-white sm:text-[2rem]">
               &ldquo;{proofQuotes[0].quote}&rdquo;
             </blockquote>

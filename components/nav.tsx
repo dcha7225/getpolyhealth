@@ -19,8 +19,8 @@ export { Logo };
 
 const links = [
   { label: "Workflow", href: "#workflow" },
-  { label: "Platform", href: "#platform" },
-  { label: "Proof", href: "#proof" },
+  { label: "Agent Library", href: "#platform" },
+  { label: "Testimonials", href: "#proof" },
   { label: "Security", href: "#security" },
   { label: "Team", href: "#team" },
 ];
