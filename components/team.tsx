@@ -11,7 +11,7 @@ const team = [
   {
     name: "Daniel Cha",
     title: "Co-Founder",
-    bio: "Ex-TikTok and Amazon. Carnegie Mellon senior building reliable product systems, polished interfaces, and AI workflows for real clinical operations.",
+    bio: "Ex-TikTok and AWS. Carnegie Mellon senior with experience building agentic workflows.",
     linkedin: "https://www.linkedin.com/in/danielcha0131/",
     photo: "/team/dan.png",
   },
